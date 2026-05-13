@@ -1,4 +1,9 @@
 {
+  "scripts":{
+    "start":"node dist/app.js",
+    "build":"npx tsc",
+    "dev":"ts-node src/app.ts"
+  },
   "dependencies": {
     "@types/express": "^5.0.6",
     "@types/node": "^25.3.3",
